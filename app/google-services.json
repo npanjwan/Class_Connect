@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473922876681",
+    "project_id": "purdue-connect-9c9b5",
+    "storage_bucket": "purdue-connect-9c9b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473922876681:android:23de345346013d7b98cfd8",
+        "android_client_info": {
+          "package_name": "com.example.cnit425_final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473922876681-gmtd49ro5grljcgdaap93mo73i5r4i39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtOvrboJVOx4XBAOcmbSPvX63va2BkXLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473922876681-gmtd49ro5grljcgdaap93mo73i5r4i39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

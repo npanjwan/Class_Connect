@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/announcement_view">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/group_image_background"
+        android:id="@+id/image"
+        android:src="@drawable/ic_baseline_notification_important_24"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/announcement_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/image"
+        android:text="CIT ANNOUNCEMENTS"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/announcement_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/announcement_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/image"
+        android:text="Subject: Online option for continuing students UPDATE"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/announcement_description"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/announcement_subject"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/image"
+        android:text="Since my last note on this topic, there have been changes in deadlines of which you should be aware. The new university deadline to change to the online option with priority is now July 6. All courses university-wide that are going to be available for the online cohort will be finalized by July 1. The courses that are currently available at located at https://catalog.purdue.edu/content.php?catoid=13&amp;navoid=16473#c New courses will be added until July 1."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">473922876681-gmtd49ro5grljcgdaap93mo73i5r4i39.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">473922876681</string>
+    <string name="google_api_key" translatable="false">AIzaSyBtOvrboJVOx4XBAOcmbSPvX63va2BkXLc</string>
+    <string name="google_app_id" translatable="false">1:473922876681:android:23de345346013d7b98cfd8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBtOvrboJVOx4XBAOcmbSPvX63va2BkXLc</string>
+    <string name="google_storage_bucket" translatable="false">purdue-connect-9c9b5.appspot.com</string>
+    <string name="project_id" translatable="false">purdue-connect-9c9b5</string>
+</resources>

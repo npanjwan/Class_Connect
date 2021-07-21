@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/course_enrolled"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/group_image_background"
+            app:tint="#f6f4ec" />
+
+        <ImageView
+            android:id="@+id/group_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/group_image_background"
+            android:src="@drawable/ic_round_group_24"
+            app:srcCompat="@drawable/ic_round_group_24"
+            app:tint="#2c3b4b"
+            tools:ignore="VectorDrawableCompat"
+            tools:srcCompat="@drawable/ic_round_group_24" />
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/group_image"
+            android:gravity="clip_vertical|fill_vertical"
+            android:padding="0dp"
+            android:text="CNIT XXXXX - Computer and Information Technology"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>
